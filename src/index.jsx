@@ -1,5 +1,3 @@
-/* global __DEVTOOLS__, __VERSION__ */
-// @flow weak
 import React from 'react';
 import ReactDom from 'react-dom';
 import { App } from './App';

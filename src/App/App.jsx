@@ -1,4 +1,3 @@
-// @flow weak
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';

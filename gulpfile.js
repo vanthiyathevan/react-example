@@ -20,10 +20,8 @@ let fuseBox = new fsbx.FuseBox({
       test: /\.jsx?$/,
       config: {
         sourceMaps: true,
-        presets: ["es2015"],
-        plugins: [
-          ["transform-react-jsx"]
-        ]
+        presets: ["latest", "stage-0", "react"],
+        plugins: ["transform-export-extensions"]
       }
     })
   ]
