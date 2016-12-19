@@ -1,7 +1,11 @@
+/* global __DEVTOOLS__, __VERSION__ */
+// @flow weak
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App.jsx';
-import './index.css';
+import ReactDom from 'react-dom';
+import { App } from './App';
+
+const props = { store: 'someStore' };
 
 ReactDOM.render(
-  <App />, document.getElementById('root'));
+  <App {...props}/>, document.getElementById('root')
+);
